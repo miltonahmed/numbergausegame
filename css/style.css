@@ -32,7 +32,8 @@ body {
   border: none;
   border: 1px solid black;
 }
-.game-container .playerOneBtn {
+.game-container .playerOneBtn,
+.playerTwoBtn {
   padding: 10px 20px;
   background-color: aqua;
   border: none;
@@ -50,5 +51,11 @@ body {
   color: red;
   font-weight: normal;
   font-size: 16px;
+  display: none;
+}
+.playerTwoInput {
+  display: none;
+}
+.playerTwoBtn {
   display: none;
 }
